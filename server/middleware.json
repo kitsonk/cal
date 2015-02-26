@@ -1,0 +1,33 @@
+{
+  "initial:before": {
+    "loopback#favicon": {}
+  },
+  "initial": {
+    "compression": {}
+  },
+  "session": {
+  },
+  "auth": {
+  },
+  "parse": {
+  },
+  "routes": {
+  },
+  "routes:after": {
+    "./middleware/proxy": {
+      "params": {
+        "rules": [
+          "^/catalogue/(.*)$ http://client.nowtv.com/catalogue/$1 [P]"
+        ]
+      }
+    }
+  },
+  "files": {
+  },
+  "final": {
+    "loopback#urlNotFound": {}
+  },
+  "final:after": {
+    "errorhandler": {}
+  }
+}
