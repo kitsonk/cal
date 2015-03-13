@@ -7,19 +7,19 @@ A prototype client API abstraction layer.
 
 First you need to have Node.JS installed including `npm`.  Then you need to install LoopBack:
 
-```bash
+```sh
 $ npm install -g strongloop
 ```
 
 Then you need to clone the repository:
 
-```bash
+```sh
 $ git clone https://github.com/kitsonk/cal.git
 ```
 
 Then, navigate to the path and start:
 
-```bash
+```sh
 $ cd cal
 $ slc start
 ```
