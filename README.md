@@ -5,7 +5,7 @@ A prototype client API abstraction layer.
 
 ## Installation
 
-First you need to have Node.JS installed including `npm`.  Then you need to install LoopBack:
+First you need to have git and Node.js installed including `npm`.  Then you need to install LoopBack:
 
 ```sh
 $ npm install -g strongloop
@@ -21,7 +21,7 @@ Then, navigate to the path and start:
 
 ```sh
 $ cd cal
-$ slc start
+$ slc run
 ```
 
 It should then be running on `localhost:3000`.  If you navigate to a `http://localhost:3000/catalogue/`
